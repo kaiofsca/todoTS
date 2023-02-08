@@ -11,17 +11,27 @@ export const Container = styled.div(({ done }: ContainerProps) => (
     padding: 10px;
     border-radius: 10px;
     margin-bottom: 10px;
+    justify-content: space-between;
+    
     align-items: center;
 
     input {
         width: 20px;
         height: 25px;
         margin-right: 5px;
+        cursor: pointer;
     }
 
     label {
         color: #CCC;
         text-decoration: ${done ? 'line-through' : 'initial'};
+    }
+
+    button {
+        font-size: 1.5rem;
+        background: transparent;
+        border: none;
+        cursor: pointer;
     }
 `
 ));
