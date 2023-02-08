@@ -9,8 +9,9 @@
 - Typescript
 - JSX
 - Hooks
+- Vercel
 
-### 🤖 Link para o deploy: [Todo]()
+### 🤖 Link para o deploy: [Todo](https://todo-ts-jet.vercel.app/)
 
 ##
 
